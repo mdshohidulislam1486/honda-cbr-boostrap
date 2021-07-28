@@ -2,3 +2,7 @@
 header{
     background-color:#264653 ;
 }
+/* --------------featured bikes------------- */
+img.gray-scale{
+    filter: grayscale(100%);
+  }
