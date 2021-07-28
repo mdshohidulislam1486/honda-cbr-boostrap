@@ -5,4 +5,9 @@ header{
 /* --------------featured bikes------------- */
 img.gray-scale{
     filter: grayscale(100%);
-  }
+}
+/* --------------clients reviews-------------- */
+.review-fixed-width{
+    max-width: 323px;
+    max-height: 550.01px;
+}
