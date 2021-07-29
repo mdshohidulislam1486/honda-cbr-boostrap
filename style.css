@@ -14,3 +14,49 @@ img.gray-scale{
     max-width: 323px;
     max-height: 550.01px;
 }
+
+
+ /* -----upcoming product and contact-------- */
+
+.upcoming-product{
+    font-family: 'EB Garamond', serif;
+    font-family: 'Lobster', cursive;
+}
+
+ /* -------------- subscription form ----------------- */
+ .registation{
+    background-color:rgba(0, 0, 0, .1);
+    border-radius:10px;
+    padding:1em 2em 1em 1em;
+    box-shadow:1px 1px 5px rgba(0, 0, 0, .5);
+  }
+ 
+  form{
+    font-family: 'EB Garamond', serif;
+    font-family: 'Lobster', cursive;
+    padding:1em;
+    position:relative;
+  }
+  
+  p > input{
+    display:flex;
+    align-items: stretch;
+    width:100%;
+    padding:.6em;
+    border-radius:5px;
+    border:1px solid rgba(0, 0, 0, .3);
+    outline:none;
+    margin:0.5em 1em 0.5em 0;
+    box-shadow:1px 1px 5px rgba(0, 0, 0, .5);
+    
+  }
+  
+  .footer input{
+    padding:.5em 5em;
+    background:#ffcc00;
+    border:1px solid rgba(0, 0, 0, .3);
+    border-radius:3px;
+    box-shadow:1px 1px 5px rgba(0, 0, 0, .5);
+  }
+  
+  
