@@ -8,9 +8,23 @@ header{
 }
 
 /* --------------featured bikes------------- */
+.best-text-after::after{
+    content: '';
+    display: block;
+    height: 2px;
+    width:50px;
+    background-color: #ffcc00;
+    margin: 0 auto; 
+}
+.best-text-after:hover{
+    transform: translateY(-4px);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
 img.gray-scale{
     filter: grayscale(100%);
 }
+
 
 /* --------------clients reviews-------------- */
 .review-fixed-width{
